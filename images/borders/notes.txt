@@ -1,0 +1,8 @@
+https://pixabay.com/images/search/science/
+
+cells01 https://pixabay.com/illustrations/cells-human-medical-biology-health-1872666/
+
+dna01 https://pixabay.com/illustrations/dna-string-biology-3d-1811955/
+dna02 https://pixabay.com/illustrations/dna-genetic-material-helix-proteins-3539309/
+
+ecg01 https://pixabay.com/photos/equipment-hospital-ecg-3089883/
