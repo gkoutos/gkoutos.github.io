@@ -80,6 +80,13 @@ body {
 }
 
 
+.catsandstars {
+  background-image:
+      url ("images/borders/light_grey.jpg width="100" height ="100"), 
+  background-color: transparent;
+}
+
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
