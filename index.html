@@ -76,6 +76,22 @@ Bioinformatics, Translational Research, Precision Medicine, network medicice, NL
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
+  <script>
+$(document).ready(function(){
+  // Activate Carousel
+  $("#myCarousel").carousel("pause");
+
+  // Go to the second item
+  $("#myBtn").click(function(){
+    $("#myCarousel").carousel(7);
+  });
+
+  // Go to the third item
+  $("#myBtn2").click(function(){
+    $("#myCarousel").carousel(8);
+  });
+</script>
+  
 
 <div class="container-lg">
   
@@ -115,12 +131,13 @@ Bioinformatics, Translational Research, Precision Medicine, network medicice, NL
                 <a class="dropdown-item" href="#">Genomics/Genetics</a>
                 <!-- a class="dropdown-item" href="#myCarousel" role="button" data-slide="3">Genomics/Genetics</a -->
 
-                  
-
-
+                
                 
                 <a class="dropdown-item" href="#myCarousel">Multi-Omics Integrative Analytics </a>
-                <a class="dropdown-item" href="#">Public Health</a>
+                <!-- a class="dropdown-item" href="#">Public Health</a -->
+                
+                 <a class="dropdown-item" href="#myCarousel" id="myBtn" role="button">Public Health !</a>
+                
                 <a class="dropdown-item" href="#">Computational Biolopy</a>
                 <a class="dropdown-item" href="#">Biomedical Big Data</a>
                 <a class="dropdown-item" href="#">Network Medicine</a>
