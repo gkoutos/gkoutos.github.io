@@ -86,13 +86,28 @@ $(document).ready(function(){
 
   // Go to the second item
   $("#myBtn").click(function(){
-    $("#myCarousel").carousel(7);
+    $("#myCarousel").carousel(1);
   });
 
   // Go to the third item
   $("#myBtn2").click(function(){
-    $("#myCarousel").carousel(8);
+    $("#myCarousel").carousel(2);
   });
+  
+    // Enable Carousel Indicators
+  $(".item1").click(function(){
+    $("#myCarousel").carousel(0);
+  });
+  $(".item2").click(function(){
+    $("#myCarousel").carousel(1);
+  });
+  $(".item3").click(function(){
+    $("#myCarousel").carousel(2);
+  });
+  $(".item4").click(function(){
+    $("#myCarousel").carousel(3);
+  });
+    
 </script>
   
 
@@ -246,10 +261,10 @@ $(document).ready(function(){
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="1" class="item1"></li>
+      <li data-target="#myCarousel" data-slide-to="2" class="item2"></li>
+      <li data-target="#myCarousel" data-slide-to="3" class="item3"></li>
+      <li data-target="#myCarousel" data-slide-to="4" class="item4"></li>
       <li data-target="#myCarousel" data-slide-to="5"></li>
       <li data-target="#myCarousel" data-slide-to="6"></li>
       <li data-target="#myCarousel" data-slide-to="7"></li>
